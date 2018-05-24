@@ -2,7 +2,7 @@ task run (type: JavaExec){
     def applicationDirectory= file(project.properties['applicationDirectory'] ?: "${projectDir}").toString()
     def workspaceDirectory= file(project.properties['workspaceDirectory'] ?: "${projectDir}").toString()
     
-    main = 'com.coronaide.main.Main'
+    main = 'org.starchartlabs.corona.main.Main'
     classpath = sourceSets.main.runtimeClasspath
     jvmArgs = [ "-Xdebug", "-agentlib:jdwp=transport=dt_socket,address=9000,server=y,suspend=n" ]
     args = [ "--applicationDirectory", "${applicationDirectory}", "--workspaceDirectory", "${workspaceDirectory}" ]

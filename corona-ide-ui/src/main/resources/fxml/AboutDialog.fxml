@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<DialogPane prefHeight="207.0" prefWidth="461.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.coronaide.ui.controller.AboutDialogController">
+<DialogPane prefHeight="207.0" prefWidth="461.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.starchartlabs.corona.ui.controller.AboutDialogController">
    <graphic>
       <ImageView fitHeight="120.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -28,7 +28,7 @@
                   <Font name="Arial Bold" size="14.0" />
                </font>
             </Label>
-            <Label alignment="TOP_LEFT" layoutX="27.0" layoutY="50.0" prefHeight="117.0" prefWidth="314.0" text="Copyright (c) 2017 Corona IDE all rights reserved&#10;&#10;Corona is currently pre-release software. Thank you for your help testing and developing it.&#10;" wrapText="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="40.0" />
+            <Label alignment="TOP_LEFT" layoutX="27.0" layoutY="50.0" prefHeight="117.0" prefWidth="314.0" text="Copyright (c) 2017 StarChart Labs all rights reserved&#10;&#10;Corona is currently pre-release software. Thank you for your help testing and developing it.&#10;" wrapText="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="40.0" />
             <Button layoutX="224.0" layoutY="132.0" mnemonicParsing="false" onAction="#close" prefHeight="25.0" prefWidth="108.0" text="OK" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" />
          </children>
       </AnchorPane>
