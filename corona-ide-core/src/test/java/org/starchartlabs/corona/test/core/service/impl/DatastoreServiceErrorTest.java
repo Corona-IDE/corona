@@ -59,7 +59,7 @@ public class DatastoreServiceErrorTest {
     public void setup() {
         MockitoAnnotations.initMocks(this);
 
-        Mockito.when(module.getId()).thenReturn("com.coronaide.test");
+        Mockito.when(module.getId()).thenReturn("com.starchartlabs.corona.test");
         Mockito.when(module.getVersion()).thenReturn(new Version(1, 0, 0));
 
         application = new Application(Paths.get("app-dir"));

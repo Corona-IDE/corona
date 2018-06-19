@@ -23,9 +23,9 @@ test{
 	//See: https://stackoverflow.com/questions/45149425/first-testfx-test-executed-fails-identical-second-test-passes-when-in-headless
     if(project.hasProperty('headless')){
 		//There are bugs with some tests in headless mode
-		exclude 'com/coronaide/test/ui/ProjectDeleteTest.class'
-		exclude 'com/coronaide/test/ui/AboutDialogTest.class'
-		exclude 'com/coronaide/test/ui/CreateProjectTest.class'
+		exclude 'com/starchartlabs/corona/test/ui/ProjectDeleteTest.class'
+		exclude 'com/starchartlabs/corona/test/ui/AboutDialogTest.class'
+		exclude 'com/starchartlabs/corona/test/ui/CreateProjectTest.class'
 	
 		doFirst {
 			def javaExtFile = file("${javaExtDirectory}")

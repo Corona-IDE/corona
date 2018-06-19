@@ -21,7 +21,7 @@ import javax.annotation.concurrent.Immutable;
 @Immutable
 public final class CoronaIdeCore implements Module {
 
-    private static final String ID = "com.coronaide.core";
+    private static final String ID = "com.starchartlabs.corona.core";
 
     private static final Version VERSION = new Version(0, 1, 0);
 
